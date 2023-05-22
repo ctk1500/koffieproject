@@ -28,7 +28,7 @@ def lookup_vin(vin: str):
     if result:
         # VIN found in cache, return the cached result
         return {
-            "VIN": vin,
+            "Input VIN Requested": vin,
             "Make": result.make,
             "Model": result.model,
             "Model Year": result.year,
