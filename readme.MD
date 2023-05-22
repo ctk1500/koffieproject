@@ -2,11 +2,11 @@ API for caching and retrieving vehicle VINs
 
 **before running please run init/create_db.py in init folder**
 
-/lookup
+/lookup/{VIN}
 
 -lookup vin in database cache, if not found use vpic.nhtsa.dot.gov api
 
-/remove
+/remove/{VIN}
 
 -remove vin from the cache if exists
 
