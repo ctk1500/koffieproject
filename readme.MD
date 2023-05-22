@@ -16,4 +16,4 @@ API for caching and retrieving vehicle VINs
 
 Running fastapi:
 
-uvicorn main:app --reload
+uvicorn src.api:app
